@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="Title" format="string" />     //标题文字
+        <attr name="TitleSize" format="dimension" />    //标题大小
+        <attr name="TitleColor" format="color" />   //标题颜色
+        <attr name="LeftButtonTitle" format="string" /> //左边button文字
+        <attr name="LeftTitleSize" format="dimension" />   //左边button大小
+        <attr name="LeftTitleColor" format="color"/>
+        <attr name="LeftBackGround" format="color|reference" />//背景色
+        <attr name="RightButtonTitle" format="string" />
+        <attr name="RightTitleColor" format="color"/>
+        <attr name="RightTitleSize" format="dimension" />
+        <attr name="RightBackGround" format="color|reference" />
+    </declare-styleable>
+</resources>
